@@ -5,7 +5,7 @@
     ```
     # For initialization
     git init
-    
+
     # To add or staged file
     git add . (For all files and folder present)
     git add <filename>
@@ -29,3 +29,5 @@
     # Pushing to Github repository
     git push -u origin main
     ```
+
+- We don't have to write every time `git push -u origin main` if we had already push the code, then we write only `git push`.
