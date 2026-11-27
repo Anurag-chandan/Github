@@ -28,3 +28,14 @@ git push -u origin main
     git commit -m "Commit message "
     git push -> To push to repository
     ```
+## To clone Github repository
+
+```
+step 1. Create a folder in which we will clone the repository
+step 2. git clone (repository link)
+step 3. Check branch
+git branch
+step 4. If branch is not main then change it 
+git branch -M main
+git push -u origin main
+```
