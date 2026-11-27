@@ -3,29 +3,18 @@
 ## Tracking project through git
 
     ```
-    # For initialization
-    git init
-
-    # To add or staged file
+    git init -> Initialization
     git add . (For all files and folder present)
-    git add <filename>
-
-    # To commit the change
+    git add (filename)
     git commit -m "Commit message"
-
-    # Confirm branch
-    git branch
-    git branch -M main
-
-    
+    git branch -> To confirm branch
+    git branch -M main -> To set branch to main
     ```
 
 ## Pushing to Github
 
     ```
-    # Getting url for github repository
-    git remote add origin <link>
-
+    git remote add origin (link)
     # Pushing to Github repository
     git push -u origin main
     ```
@@ -34,6 +23,8 @@
 
 - Once we had done above thing we had to do only these things :-
 
-    1. git add .
-    2. git commit -m "commit message"
-    3. git push -> To push to repository
+    ```
+    git add .
+    git commit -m "Commit message "
+    git push -> To push to repository
+    ```
